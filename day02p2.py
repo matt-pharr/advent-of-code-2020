@@ -13,11 +13,8 @@ valid = 0
 for line in splitlines:
     a,b = line[0].split('-')
     char1 = line[1][0]
-    match = 0
-    for char in line[2]:
-        if char == char1:
-            match += 1
-    if int(a) <= match and match <= int(b):
-        valid += 1 
+    if (line[2][int(a)-1] == char1 or line[2][int(b)-1] == char1) and line[2][int(a)-1] != line[2][int(b)-1]:
+        valid += 1
+    
 
 print(valid)
