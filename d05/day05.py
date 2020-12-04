@@ -1,3 +1,7 @@
+# Matthew Pharr
+# Advent of Code 2020
+# Rensselaer Polytechnic Institute
+
 # today i changed my program structure 
 
 import re

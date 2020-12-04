@@ -1,3 +1,9 @@
+# Matthew Pharr
+# Advent of Code 2020
+# Rensselaer Polytechnic Institute
+
+import re
+
 day = '00'
 inp = 'day' + day + 'input.txt'
 
