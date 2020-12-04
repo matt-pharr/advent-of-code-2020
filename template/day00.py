@@ -13,5 +13,5 @@ def solve(puzzle_input):
 
 if __name__ == "__main__":
     with open(inp) as inputfile:
-        for s in solve(inp.read()):
+        for s in solve(inputfile.read()):
             print(s)
