@@ -12,6 +12,6 @@ def solve(puzzle_input):
     yield s2
 
 if __name__ == "__main__":
-    with open(inp) as inputfile:
-        for s in solve(inputfile.read()):
+    with open(inp) as iofile:
+        for s in solve(iofile.read()):
             print(s)
