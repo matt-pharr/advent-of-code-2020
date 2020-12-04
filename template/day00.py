@@ -1,6 +1,4 @@
-# today i changed my program structure 
-import re
-day = '05'
+day = '00'
 inp = 'day' + day + 'input.txt'
 
 # Reading function goes here
