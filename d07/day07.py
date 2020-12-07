@@ -3,11 +3,11 @@
 # Rensselaer Polytechnic Institute
 
 # beware this one is UGLY
-
+import os
 import re
 
 day = '07'
-inp = 'day' + day + 'input.txt'
+inp = os.path.dirname(os.path.realpath(__file__)) + '/day' + day + 'input.txt'
 
 # Reading function goes here
 def readin(puzzle_input):

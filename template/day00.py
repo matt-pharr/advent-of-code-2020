@@ -1,11 +1,11 @@
 # Matthew Pharr
 # Advent of Code 2020
 # Rensselaer Polytechnic Institute
-
+import os 
 import re
 
 day = '00'
-inp = 'day' + day + 'input.txt'
+inp = os.path.dirname(os.path.realpath(__file__)) + '/day' + day + 'input.txt'
 
 # Reading function goes here
 
