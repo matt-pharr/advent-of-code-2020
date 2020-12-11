@@ -123,7 +123,7 @@ def finds(seats,new=False):
     countlist = []
     while True:
         # print('hi')
-        alast = a.copy()
+        # alast = a.copy()
         a = iterate(a.copy(),new)
         count = 0
         for i in range(len(a)):
